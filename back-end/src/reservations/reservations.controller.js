@@ -88,6 +88,21 @@ function validTime(req, res, next){
   next()
 }
 
+
+// function to validate that mobile property has valid format
+function validPhone(req, res, next){
+  const {mobile_number} = req.body.data
+  const validNumber = /[0-9]{3}-?[0-9]{3}-?[0-9]{4}/.test(mobile_number)
+  if(!validNumber){
+    next({
+      status: 400,
+      message: `mobile phone is not valid`,
+    })
+  }
+  next()
+}
+
+
 // function to validate that people property is a number
 function validPeople(req, res, next){
   const {people} = req.body.data
@@ -205,6 +220,7 @@ module.exports = {
     validDate,
     validTime,
     validPeople,
+    validPhone,
     notTuesday,
     futureRes,
     openHours,
@@ -225,6 +241,7 @@ module.exports = {
     validDate,
     validTime,
     validPeople,
+    validPhone,
     notTuesday,
     futureRes,
     openHours,
