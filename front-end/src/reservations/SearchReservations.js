@@ -39,11 +39,11 @@ function SearchReservations() {
             <section>
                 <form onSubmit={submitHandle}>
                     <div>
-                        <label htmlFor="mobile_number" class="form-label">Mobile Number:</label>
+                        <label htmlFor="mobile_number" className="form-label">Mobile Number:</label>
                         <br />
                         <input
                             id="mobile_number"
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             placeholder="Enter a customer's phone number"
                             name="mobile_number"

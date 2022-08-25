@@ -1,9 +1,12 @@
 import React from "react";
 import moment from "moment";
+// import {formatReservationDate} from "format-reservation-date";
 
 function ReservationForm({submitHandle, changeHandle, form, cancelLink}){
     const date = moment(form.reservation_date).format("yyyy-MM-DD")
+   // const date = formatReservationDate(reservations.reservation_date);
 
+    
     return (
         <form onSubmit={submitHandle}>
             <div>
