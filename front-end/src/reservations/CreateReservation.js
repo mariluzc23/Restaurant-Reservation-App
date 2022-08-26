@@ -28,8 +28,8 @@ function CreateReservation(){
         const abortController = new AbortController()
         formData.people = Number(formData.people)
         try {
-            const response = await createReservation(formData, abortController.signal)
-            history.push(`/dashboard?date=${response.reservation_date}`)
+            await createReservation(formData, abortController.signal)
+            history.push(`/dashboard?date=${formData.reservation_date}`)
         }
         catch(error) {
             if(error.name !== "AbortError") {
