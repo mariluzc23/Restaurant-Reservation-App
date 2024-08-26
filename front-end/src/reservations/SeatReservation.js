@@ -63,8 +63,8 @@ function SeatReservation(){
             </select>
             </label>
             <br/>
-            <button type="submit" className="btn btn-primary m-3">Submit</button>
-            <button type="button" onClick={()=> history.goBack()} className="btn btn-secondary m-3">Cancel</button>
+            <button type="submit" className="btn btn m-3" style={{backgroundColor: '#8eb69b'}}>Submit</button>
+            <button type="button" onClick={()=> history.goBack()} className="btn btn m-3" style={{backgroundColor: '#daf1de'}}>Cancel</button>
             </form>
         </div>
     )

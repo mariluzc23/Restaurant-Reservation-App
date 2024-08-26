@@ -20,10 +20,10 @@ function ShowReservations({reservations}) {
               <span data-reservation-id-status={reservation_id}>Reservation status: {status}</span>
             </div>
             {status === "booked" ?
-              <a href={`/reservations/${reservation_id}/seat`} className="btn btn-primary mx-3">Seat</a>
+              <a href={`/reservations/${reservation_id}/seat`} className="btn btn mx-3" style={{backgroundColor: '#8eb69b'}}>Seat</a>
               : <div></div>
             }
-            <a href={`/reservations/${reservation_id}/edit`} className="btn btn-primary mx-3">Edit</a>
+            <a href={`/reservations/${reservation_id}/edit`} className="btn btn mx-3" style={{backgroundColor: '#8eb69b'}}>Edit</a>
             <CancelReservation reservation_id={reservation_id} />
           </li>
     })}

@@ -29,7 +29,7 @@ function CancelReservation({reservation_id}){
     return (
         <div>
             <ErrorAlert error = {err}/>
-            <button type="button" onClick={cancelHandle} className="btn btn-danger mx-3" data-reservation-id-cancel={reservation_id}>Cancel</button>
+            <button type="button" onClick={cancelHandle} className="btn btn mx-3" style={{backgroundColor: '#daf1de'}} data-reservation-id-cancel={reservation_id}>Cancel</button>
         </div>
     )
 }

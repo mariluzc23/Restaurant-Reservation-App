@@ -31,7 +31,7 @@ function FinishTable({table}) {
         <div>
             <h6 data-table-id-status={table.table_id}>Occupied</h6>
             <ErrorAlert error = {err}/>
-            <button type="button" data-table-id-finish={table.table_id} className="btn btn-primary" onClick={clickHandle}>
+            <button type="button" data-table-id-finish={table.table_id} className="btn btn" style={{backgroundColor: '#8eb69b'}} onClick={clickHandle}>
           Finish
         </button>
         </div>
