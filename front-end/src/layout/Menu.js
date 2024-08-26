@@ -1,7 +1,6 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
-
+import './Layout.css';
 /**
  * Defines the menu for this application.
  *
@@ -17,7 +16,7 @@ function Menu() {
           to="/"
         >
           <div className="sidebar-brand-text mx-3">
-            <span>Periodic Tables</span>
+            <span>Table Reservations</span>
           </div>
         </Link>
         <hr className="sidebar-divider my-0" />

@@ -52,7 +52,7 @@ function SearchReservations() {
                             required
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary m-3">Find</button>
+                    <button type="submit" className="btn btn m-3" style={{backgroundColor: '#8eb69b'}} >Find</button>
                 </form>
             </section>
             <hr/>

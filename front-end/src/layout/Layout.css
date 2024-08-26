@@ -1,4 +1,12 @@
 .side-bar {
-  background-color: #393a44;
+  background-color: #0b2b26;
   min-width: 200px;
+}
+
+body {
+  background-color: rgba(40, 44, 52, 0.8);
+  background: url(../images/jason-leung-poI7DelFiVA-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #daf1de;
+  scroll-behavior: smooth;
 }

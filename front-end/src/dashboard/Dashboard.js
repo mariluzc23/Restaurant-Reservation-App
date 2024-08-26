@@ -65,19 +65,19 @@ import useQuery from "../utils/useQuery";
       </div>
       <ErrorAlert error={reservationsError} />
       <div className="d-grid gap-2 d-md-flex justify-content-center">
-        <button type="button" className="btn btn-outline-primary mx-2 my-2" onClick={()=> {
+        <button type="button" className="btn btn mx-2 my-2" style={{backgroundColor: '#8eb69b'}} onClick={()=> {
           history.push(`/dashboard?date=${previous(currentDate)}`)
           setCurrentDate(previous(date))
           }}>
         Previous
         </button>
-        <button type="button" className="btn btn-outline-primary mx-2 my-2" onClick={
+        <button type="button" className="btn btn mx-2 my-2" style={{backgroundColor: '#8eb69b'}} onClick={
           ()=> {history.push(`/dashboard?date=${today()}`)
           setCurrentDate(today())
           }}>
           Today
         </button>
-        <button type="button" className="btn btn-outline-primary mx-2 my-2" onClick={()=> {
+        <button type="button" className="btn btn mx-2 my-2" style={{backgroundColor: '#8eb69b'}} onClick={()=> {
           history.push(`/dashboard?date=${next(currentDate)}`)
           setCurrentDate(next(date))
           }}>

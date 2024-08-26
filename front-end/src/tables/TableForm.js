@@ -32,8 +32,8 @@ function TableForm({submitHandle, changeHandle, form, cancelLink}){
                     required
                     />
             </div>
-            <button onClick={cancelLink} className="btn btn-danger">Cancel</button>
-            <button type="submit" className="btn btn-primary m-3">Submit</button>
+            <button onClick={cancelLink} className="btn btn" style={{backgroundColor: '#daf1de'}}>Cancel</button>
+            <button type="submit" className="btn btn m-3" style={{backgroundColor: '#8eb69b'}}>Submit</button>
         </form>
     )
 }
