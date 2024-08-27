@@ -38,6 +38,7 @@ The **Restaurant Reservation App** is a full-stack web application designed to s
 ```bash
 git clone https://github.com/mariluzc23/Restaurant-Reservation-App.git
 ```
+### Navigate into the Project Directory
 ```bash
 cd Restaurant-Reservation-App
 ```
@@ -45,5 +46,25 @@ cd Restaurant-Reservation-App
 ```bash
 npm install
 ```
+### Set Up the Database
+1. Create a new PostgreSQL database.
+2. Configure the database connection
+3. Run the database migration scripts
+
+### Start the Application
+```bash
+npm run start
+```
+#### To run Frontend only
+```bash
+npm run start:front-end
+```
+### To run Backend only
+```bash
+npm run start:back-end
+```
+
+
+
 
 
