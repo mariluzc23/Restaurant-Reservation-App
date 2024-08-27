@@ -5,9 +5,9 @@ The **Restaurant Reservation App** is a full-stack web application designed to s
 
 ![dashboard before](front-end/src/images/us-01-cancel-after.png)
 
-![new reservation](front-end/.screenshots/us-02-reservation-almost-closing-before.png)
+![new reservation](front-end/src/images/us-02-reservation-almost-closing-before.png)
 
-![dashboard after](front-end/.screenshots/us-04-dashboard-seat-button-after.png)
+![dashboard after](front-end/src/images/us-04-dashboard-seat-button-after.png)
 
 ## Features
 - **User-Friendly Interface:** Elegant and intuitive UI with beautiful CSS styling for a seamless user experience.
