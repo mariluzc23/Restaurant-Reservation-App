@@ -3,6 +3,12 @@
 ## Overview
 The **Restaurant Reservation App** is a full-stack web application designed to simplify the reservation process for fine dining restaurants. It provides a user-friendly interface for customers to book tables and for restaurant staff to manage reservations efficiently.
 
+![alt text](front-end/.screenshots/us-01-cancel-after.png)
+
+![alt text](front-end/.screenshots/us-02-reservation-almost-closing-before.png)
+
+![alt text](front-end/.screenshots/us-04-dashboard-seat-button-after.png)
+
 ## Features
 - **User-Friendly Interface:** Elegant and intuitive UI with beautiful CSS styling for a seamless user experience.
 - **Real-Time Reservation Management:** View available time slots and make reservations in real-time.
@@ -31,6 +37,8 @@ The **Restaurant Reservation App** is a full-stack web application designed to s
 ### Clone the Repository
 ```bash
 git clone https://github.com/mariluzc23/Restaurant-Reservation-App.git
+```
+```bash
 cd Restaurant-Reservation-App
 ```
 ### Install Dependencies
