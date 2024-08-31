@@ -5,12 +5,12 @@ body {
   background-size: cover;
   color: #daf1de;
   scroll-behavior: smooth;
+  min-width: 100vh;
 }
 
 .side-bar {
   background-color: rgba(11, 43, 38, 0.8);
-  min-width: 250px;
-  height: auto;
+  max-width: 300px;
 }
 
 .card {
