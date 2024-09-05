@@ -1,3 +1,4 @@
+/* General styling */
 body {
   font-family: Verdana, sans-serif;
   background-color: rgba(40, 44, 52, 0.8);
@@ -5,12 +6,14 @@ body {
   background-size: cover;
   color: #daf1de;
   scroll-behavior: smooth;
-  min-width: 100vh;
+  margin: 0; /* Remove body margin */
+  padding: 0; /* Remove body padding */
 }
 
 .side-bar {
   background-color: rgba(11, 43, 38, 0.8);
   max-width: 300px;
+  height: 100%; /* Ensures the sidebar is full height */
 }
 
 .card {
@@ -24,4 +27,49 @@ body {
 
 .form-control {
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Media Query for Mobile Devices */
+@media all and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-fluid {
+    height: auto !important; 
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+  }
+
+  .side-bar {
+    width: 100%; /* Make sidebar take full width on mobile */
+    max-width: 100%; /* Ensure it adjusts properly */
+    height: auto; /* Adjust height to fit content */
+  }
+
+  .flex-grow-1 {
+    flex-grow: 0;
+  }
+
+  .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    height: 100vh; /* Full height on larger screens */
+  }
+
+  .side-bar {
+    max-width: 300px; /* Standard width for the sidebar */
+    height: 100vh; /* Full height on larger screens */
+  }
 }
