@@ -29,7 +29,7 @@ function ShowReservations({reservations}) {
     })}
         </ol>
   )}
-  return <h5>No reservations for the requested date</h5>
+  return <h4>No reservations for the requested date</h4>
 }
 
 export default ShowReservations

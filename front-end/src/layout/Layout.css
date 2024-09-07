@@ -2,18 +2,18 @@
 body {
   font-family: Verdana, sans-serif;
   background-color: rgba(40, 44, 52, 0.8);
-  background: url(../images/jason-leung-poI7DelFiVA-unsplash.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/jason-leung-poI7DelFiVA-unsplash.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #daf1de;
   scroll-behavior: smooth;
-  margin: 0; /* Remove body margin */
-  padding: 0; /* Remove body padding */
+  margin: 0; 
+  padding: 0; 
 }
 
 .side-bar {
   background-color: rgba(11, 43, 38, 0.8);
   max-width: 300px;
-  height: 100%; /* Ensures the sidebar is full height */
+  height: 100%;
 }
 
 .card {
@@ -65,11 +65,11 @@ body {
 @media (min-width: 768px) {
   .navbar {
     flex-direction: row;
-    height: 100vh; /* Full height on larger screens */
+    height: 100vh; 
   }
 
   .side-bar {
-    max-width: 300px; /* Standard width for the sidebar */
-    height: 100vh; /* Full height on larger screens */
+    max-width: 300px;
+    height: 100vh; 
   }
 }

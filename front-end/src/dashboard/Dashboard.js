@@ -61,7 +61,7 @@ import useQuery from "../utils/useQuery";
     <main>
       <h1>Dashboard</h1>
       <div className="d-md-flex mb-3">
-        <h4 className="mb-0">Reservations for {currentDate}</h4>
+        <h3 className="mb-0">Reservations for {currentDate}</h3>
       </div>
       <ErrorAlert error={reservationsError} />
       <div className="d-grid gap-2 d-md-flex justify-content-center">
