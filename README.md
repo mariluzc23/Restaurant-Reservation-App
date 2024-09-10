@@ -3,14 +3,21 @@
 ## Overview
 The **Restaurant Reservation App** is a full-stack web application designed to simplify the reservation process for fine dining restaurants. It provides a user-friendly interface for customers to book tables and for restaurant staff to manage reservations efficiently.
 
-### Dashboard Before
-![dashboard before](front-end/src/images/us-01-cancel-after.png)
+### Dashboard
+![dashboard](front-end/src/images/dashboardWithTables.png)
 
-### New Reservation
-![new reservation](front-end/src/images/us-02-reservation-almost-closing-before.png)
+## New Table (Can be Deleted in Server)
+![new table](front-end/src/images/newTable.png)
 
-## Dashboard After
-![dashboard after](front-end/src/images/us-04-dashboard-seat-button-after.png)
+## New Reservation (During business hours)
+![new reservation](front-end/src/images/newReservation.png)
+
+## Search Reservations
+![search reservation](front-end/src/images/searchReservations.png)
+
+## Dashboard Display Status
+![dashboard after](front-end/src/images/us-06-dashboard-displays-status.png)
+
 
 ## Features
 - **User-Friendly Interface:** Elegant and intuitive UI with beautiful CSS styling for a seamless user experience.
@@ -32,41 +39,31 @@ The **Restaurant Reservation App** is a full-stack web application designed to s
 
 ## Installation
 
-### Prerequisites
-- [Node.js](https://nodejs.org/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [pgAdmin](https://www.pgadmin.org/)
-
-### Clone the Repository
+1. Clone the Repository
 ```bash
 git clone https://github.com/mariluzc23/Restaurant-Reservation-App.git
 ```
 
-### Navigate into the Project Directory
+2. Navigate into the Project Directory
 ```bash
 cd Restaurant-Reservation-App
 ```
 
-### Install Dependencies
+3. Install Dependencies
 ```bash
 npm install
 ```
 
-### Set Up the Database
-1. Create a new PostgreSQL database.
-2. Configure the database connection
-3. Run the database migration scripts
-
-### Start the Application
+4. Start the Application
 ```bash
 npm run start
 ```
 
-#### To run Frontend only
+To run Frontend only
 ```bash
 npm run start:front-end
 ```
-#### To run Backend only
+To run Backend only
 ```bash
 npm run start:back-end
 ```
